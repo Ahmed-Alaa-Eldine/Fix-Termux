@@ -3,5 +3,6 @@
 #youtube: بالمصريMR.Robot
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 # 1- gitclone https://github.com/pro-root/Fix-Termux.git
-# 2- chmod +x Fix-Termux.sh
-# bash Fix-Termux.sh
+# 2- cd Fix-Termux
+# 3- chmod +x Fix-Termux.sh
+# 4- bash Fix-Termux.sh
