@@ -51,6 +51,7 @@ pkg install toilet -y
 pkg install locate -y
 gem install figlet
 pip install wordlist
+pip install --upgrade pip
 pkg install termux-api -y
 pkg install ncurses-utils -y
 pip install youtube-dl
