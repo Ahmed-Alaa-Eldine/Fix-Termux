@@ -51,7 +51,6 @@ pkg install toilet -y
 pkg install locate -y
 gem install figlet
 pip install wordlist
-pip install --upgrade pip
 pkg install termux-api -y
 pkg install ncurses-utils -y
 pip install youtube-dl
@@ -73,7 +72,6 @@ pkg install proot -y
 pip2 install wget
 pip install --upgrade pip
 pip2 install requests
-pip install --upgrade pip
 pip2 install mechanize
 pkg install python2-dev -y
 pkg install mariadb -y
