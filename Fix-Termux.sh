@@ -80,6 +80,9 @@ pkg install texinfo -y
 pip install argument
 pkg install graphviz -y
 apt install tty-clock -y
+gem install bundler
+gem install bundle
+pip install bundle
 fi
 if [ $use = 1 ]
 then
