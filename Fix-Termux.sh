@@ -104,5 +104,5 @@ then
 clear
 exit
 else
-bash install.sh
+bash Fix-Termux.sh
 fi
