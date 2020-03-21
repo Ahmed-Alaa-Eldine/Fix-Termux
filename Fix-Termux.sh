@@ -9,28 +9,36 @@ cyan='\e[1;36m'
 white='\e[1;37m'
 yellow='\e[1;33m'
 clear
-echo -e $green "-------------------------------------------------------"
-sleep 0.3
-echo -e $green "-  $res    Ahmed Alaa $green                                    -"
-sleep 0.3
-echo -e $green "-                                                     -"
-sleep 0.3
-echo -e $green "-              $red Welcome to my script  $green                 -"
-sleep 0.3
-echo -e $green "-                                                     -"
-sleep 0.3
-echo -e $green "-          $blue Dr.informathion tech  $green                    -"
-sleep 0.3
-echo -e $green "-                                                     -"
-sleep 0.3
-echo -e $green "-------------------------------------------------------"
-sleep 0.5
+echo -e $green "#################################################################################################################################################################################################"
+echo -e $green "##						                                        			          00  								       ##"
+echo -e $green "##   0088################      ############                                       888888888888888888           88        00                         				               ##"
+echo -e $green "##   0088################          ####                                           888888888888888888           88      88                             				               ##"
+echo -e $green "##   0088                          ####      00          00                             88        8888         88    99            99          00                       00          00         ##"
+echo -e $green "##   0088################          ####        00      00                               88       88   88       88 999       88    88 88         88      88     00         00 	  00           ##"
+echo -e $green "##   0088################          ####          00  00                                 88     88      88      88d          99  88    00    00    00    00     00           00  00             ##"
+echo -e $green "##   8888			   ####            00         ##################        88   88	 88      88    88           88 00      00  00     000   00     00             00               ##"
+echo -e $green "##   8888			   ####          00  00       ##################        88    88 88888  88     88           999         00          00   00 00  00          00   00            ##"
+echo -e $green "##   8888			   ####        00      00                               88    88	       88           88           88                       00      00       00          ##"
+echo -e $green "##   0088                          ####      00          00                             88     88  888888      88                                                       00           00        ##"
+echo -e $green "##   0088                          ####                    00                           88      88             88    						      00               00      ##"
+echo -e $green "##   0088                      ############                                             88   	8888888	       88							                       ##"
+echo -e $gteen "###################################################################################  Haram-Masr #################################################################################################"
 echo ""
 echo -e $red     "What useing?"
 echo
 echo -e $green   "1- Linux & Gnuroot"
 echo
 echo -e $green   "2- Termux"
+echo
+echo -e $green   "3- Metaspoloit"
+echo
+echo -e $green   "4- all information gatherin on kali"
+echo
+echo -e $green   "5- ngrok"
+echo
+echo -e $green   "6- Termux-Alpine"
+echo
+echo -e $green   "7- Termux-Fedora"
 echo
 echo -e $green   "0- Exit"
 read use
@@ -91,18 +99,89 @@ apt-get upgrade
 apt-get install figlet -y
 apt-get install git -y
 apt-get install wget -y
-apt-get install toilet -y                                                    apt-get install toilet -y                                             apt-get install lolcat -y
-apt-get install ruby                                                  gem install lolcat
-gem install figlet
-pip install wordlist
+apt-get install toilet -y
+apt-get install lolcat -y
+apt-get install ruby -y
+gem install figlet -y
+pip install wordlist -y
 apt-get install nano -y
 apt-get install termux-api -y
 pip install youtube-dl
+fi
+if [ $use = 3 ]
+then
+pkg install unstable-repo -y
+pkg install metasploit -y
+apt -f install -y
+fi
+if [ $use = 4 ]
+then
+apt-get install ace -y
+apt-get install apt2 -y
+apt-get install arp-scan -y
+apt-get install bing-ip2hosts -y
+apt-get install braa -y
+apt-get install maltego -y
+apt-get install cdpsnarf -y
+apt-get install cisco-torch -y
+apt-get install dmitry -y
+git clone https://github.com/pro-root/dnmap
+apt-get install dnsenum -y
+apt-get install dnsmap -y
+apt-get install dnsrecon -y
+apt-get install dnstracer -y
+apt-get install dnswalk -y
+apt-get install dotdotpwn -y
+apt-get install enum4linux -y
+apt-get install enumiax -y
+git clone https://github.com/FortyNorthSecurity/EyeWitness.git
+apt-get install faraday -y
+apt-get install fierce -y
+apt-get install firewalk -y
+git clone https://github.com/savio-code/ghost-phisher.git
+git clone https://github.com/golismero/golismero.git
+apt-get install goofile -y
+apt-get install hping3 -y
+apt-get install ident-user-enum -y
+apt-get install inspy -y
+apt-get install intrace -y
+apt-get install ismtp -y
+apt-get install lbd -y
+apt-get install masscan -y
+apt-get install metagoofil -y
+apt-get install nbtscan-unixwiz -y
+apt-get install nikto -y
+git clone https://github.com/i3visio/osrframework.git
+apt-get install p0f -y
+apt-get install parsero -y
+apt-get install recon-ng -y
+git clone https://github.com/trustedsec/social-engineer-toolkit.git
+apt-get install smbmap -y
+apt-get install smtp-user-enum -y
+git clone git clone https://github.com/secforce/sparta.git
+git clone -b release_1_0 https://github.com/grwl/sslcaudit.git
+apt-get install sslsplit -y
+apt-get install sublist3r -y
+apt-get inatall theharvester -y
+apt-get install tlssled -y
+apt-get install twofi -y
+apt-get install unicornscan -y
+apt-get install urlcrazy -y
+apt-get install wireshark -y
+fi
+if [ $use = 5 ]
+then
+echo "soon"
+fi
+if [ $use = 6 ]
+then
+echo "soon"
+fi
+if [ $use = 7 ]
+then
+echo "soon"
 fi
 if [ $use = 0 ]
 then
 clear
 exit
-else
-bash Fix-Termux.sh
-fi
