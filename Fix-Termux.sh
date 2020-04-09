@@ -110,6 +110,7 @@ pip install youtube-dl
 fi
 if [ $use = 3 ]
 then
+cd $HOME
 pkg install unstable-repo -y
 pkg install metasploit -y
 apt -f install -y
