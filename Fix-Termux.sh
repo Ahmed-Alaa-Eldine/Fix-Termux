@@ -179,6 +179,9 @@ then
 cd $ HOME
 apt update && apt upgrade && apt install curl proot wget ruby
 curl -LO https://raw.githubusercontent.com/Hax4us/TermuxAlpine/master/TermuxAlpine.sh
+chmod 777 TermuxAlpine.sh
+./TermuxAlpine.sh
+startalpine
 fi
 if [ $use = 7 ]
 then
