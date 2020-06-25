@@ -176,6 +176,7 @@ echo "soon"
 fi
 if [ $use = 6 ]
 then
+cd $ HOME
 apt update && apt upgrade && apt install curl proot wget ruby
 curl -LO https://raw.githubusercontent.com/Hax4us/TermuxAlpine/master/TermuxAlpine.sh
 fi
