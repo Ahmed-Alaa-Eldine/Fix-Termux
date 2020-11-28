@@ -1,8 +1,8 @@
-# Fix-Termux
-#Termux,Kali Linux,script, Commands
-#youtube: بالمصريMR.Robot
+# ALsrari
+موكس ، كالي لينكس ، سكربت ، أوام
+#WhatsApp ALsrari
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-# 1- gitclone https://github.com/pro-root/Fix-Termux.git
-# 2- cd Fix-Termux
-# 3- chmod +x Fix-Termux.sh
-# 4- bash Fix-Termux.sh
+# 1- gitclone https://github.com/pro-root/AL-srari.git
+# 2- cd ALsrari
+# 3- chmod +x ALsrari.sh
+# 4- bash ALsrari.sh
