@@ -11,9 +11,9 @@ yellow='\e[1;33m'
 clear       
 echo -e $red   "##############################################
 echo -e $green "##     AL-srariX1                           ##
-echo -e $green "##ALsrari g1 X1                             ##                                   ## ####               ## ##                                                           ## ##ABOHALMY                         
+echo -e $green "##ALsrari g1 X1                             ##                                                                                                                                 
 echo -e $green "##    WhatsApp :00967772659000              ##
-echo -e $yellow"##############################################                                                                                    ## ########################## ##ABOHALMY     
+echo -e $yellow"##############################################                                                    
 echo -e $green "##            AL-srariX2                    ##  
 echo -e $green "## ALsrari g2 X2                            ##
 echo -e $green "##                                          ##
