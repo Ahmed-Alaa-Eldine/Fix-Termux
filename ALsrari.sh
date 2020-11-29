@@ -1,5 +1,5 @@
 #!/bin/bash
-#this script by Ahmed Alaa
+#this script by AL-srari Gaith
 
 red='\e[1;31m'
 green='\e[1;32m'
@@ -10,20 +10,17 @@ white='\e[1;37m'
 yellow='\e[1;33m'
 clear       
 echo -e $red   "##############################################
-echo -e $green "##     AL-srariX1                           ##
-echo -e $green "##ALsrari g1 X1                             ##                                                                                                                                 
-echo -e $green "##    WhatsApp :00967772659000              ##
-echo -e $yellow"##############################################                                                    
-echo -e $green "##            AL-srariX2                    ##  
+echo -e $green "##             "AL-srariX1"                 ##
+echo -e $green "##"ALsrari g1 X1"                           ##                                                                                                                                 
+echo -e $green "##    "WhatsApp":00967772659000"            ##
+echo -e $yellow"##############################################  
 echo -e $green "## ALsrari g2 X2                            ##
 echo -e $green "##                                          ##
-echo -e $green "##     ABOHALMY                             ##
+echo -e $green "##                   ABOHALMY               ##
 echo -e $red   "##############################################
-echo ""
-echo -e $red     "What useing?"
-echo
+echo -e $red     "AL-srari Gaith"
 echo -e $green   "1- Linux & Gnuroot"
-echo
+
 echo -e $green   "2- Termux"
 echo
 echo -e $green   "3- Metaspoloit"
