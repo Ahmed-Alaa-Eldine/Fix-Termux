@@ -10,17 +10,16 @@ white='\e[1;37m'
 yellow='\e[1;33m'
 clear       
 echo -e $red   "####################################
-                ##             "AL-srariX1"       ##
+echo -e        "##             "AL-srariX1"       ##
 echo -e $green "##"ALsrari g1 X1"                 ##                                                                                                                                 
-                ##    "WhatsApp":00967772659000"  ##
+echo -e         ##    "WhatsApp":00967772659000"  ##
 echo -e $yellow"####################################  
 echo -e $green "## ALsrari g2 X2          YEMEN   ##         
-                ##   ABOHALMY                     ##
+echo -e        "##   ABOHALMY                     ##
 echo -e $red   "####################################
-echo -e $red                "AL-srari Gaith"
-
+echo -e $red     "AL-srari Gaith"
 echo -e $green   "1- Linux & Gnuroot"
-
+echo 
 echo -e $green   "2- Termux"
 echo
 echo -e $green   "3- Metaspoloit"
